@@ -10,7 +10,6 @@ import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 //components
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
-import Footer from "./pages/Footer/Footer";
 import Home from "./pages/Home/Home";
 import MinaDetail from "./pages/MinaDetail/MinaDetail";
 import Nav from "./pages/Nav/Nav";
@@ -25,7 +24,6 @@ root.render(
         <Route index element={<Home/>} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="footer" element={<Footer />} />
         <Route path="minaDetail" element={<MinaDetail />} />
         <Route path="nav" element={<Nav />} />
         <Route path="shop" element={<Shop />} />

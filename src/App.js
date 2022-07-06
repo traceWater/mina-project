@@ -1,6 +1,7 @@
 import './App.css';
 
 //component
+import Footer from "./pages/Footer/Footer";
 import Nav from './pages/Nav/Nav'
 
 //react router
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Nav />
       <Outlet />
+      <Footer />
     </div>
   );
 }
