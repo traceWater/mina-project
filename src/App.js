@@ -1,7 +1,7 @@
 import './App.css';
 
 //component
-import Nav from './pages/Nav'
+import Nav from './pages/Nav/Nav'
 
 //react router
 import {Outlet} from 'react-router-dom'

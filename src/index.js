@@ -5,29 +5,30 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //react router
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 
 //components
-import About from './pages/About';
-import Contact from "./pages/Contact";
-import Footer from "./pages/Footer";
-import MinaDetail from "./pages/MinaDetail";
-import Nav from "./pages/Nav";
-import Shop from "./pages/Shop";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./pages/Footer/Footer";
+import Home from "./pages/Home/Home";
+import MinaDetail from "./pages/MinaDetail/MinaDetail";
+import Nav from "./pages/Nav/Nav";
+import Shop from "./pages/Shop/Shop";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <Routes>
-      <Route exact path={'/'} element={<App/>}>
-        <Route index="/app" element={<App/>} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/footer" element={<Footer />} />
-        <Route path="/minaDetail" element={<MinaDetail />} />
-        <Route path="/nav" element={<Nav />} />
-        <Route path="/shop" element={<Shop />} />
+      <Route path={'/'} element={<App/>}>
+        <Route index element={<Home/>} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="footer" element={<Footer />} />
+        <Route path="minaDetail" element={<MinaDetail />} />
+        <Route path="nav" element={<Nav />} />
+        <Route path="shop" element={<Shop />} />
       </Route>
     </Routes>
   </Router>
