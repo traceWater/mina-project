@@ -1,5 +1,6 @@
 /* @media screen and (max-width: 920px) .text-box span {
   font-size: var(--fontSizeMobile);
+    color: #4d2c57;
 } */
 
 body {
@@ -13,29 +14,32 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  grid-gap: 0;
-  padding: var(--m-block-padding);
-  font-size: 60pt;
+  font-size: 20pt;
 }
-kjlkjn #aboutMinaTitle {
-  font-size: 65pt;
-  offsetleft: 104;
-  /* offsetParent: div.block-grid-item.use-m-margin.grid__item */
-  offsettop: 2;
-  offsetwidth: 293;
-}
-
 .aboutHeroContainer {
 }
 
+#aboutMinaTitle {
+  display: inline-block;
+  font-size: 65pt;
+  color: white;
+  margin-top: 120px;
+  margin-left: 90px;
+}
+
 #aboutPinkLeafImage {
-  color: #4d2c57;
+  display: flex;
+  margin-top: -180px;
+  position: absolute;
+  z-index: -1;
 }
 
 #aboutTaglineBrandBorn {
   width: 533px;
   height: 188.78px;
-  font-size: 30pt;
+  margin-top: 100px;
+  font-size: 18pt;
+  color: #4d2c57;
 }
 
 #aboutFriendsImage {

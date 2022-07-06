@@ -6,9 +6,8 @@ function About() {
     <div>
       About
       <div className="container">
-        <span id="aboutMinaTitle">About Mina</span>
-
         <div className="aboutHeroContainer">
+          <span id="aboutMinaTitle">About Mina</span>
           <img
             id="aboutPinkLeafImage"
             src={
