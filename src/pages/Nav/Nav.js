@@ -1,21 +1,28 @@
 import React from 'react'
 
 //react router
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 //styles
 import './Nav.css';
 
 function Nav() {
+  const handleActive = ({isActive}) => {
+    return isActive ? 'active' : ''
+  }
+
   return (
     <div className='nav-container'>
       <div className="nav-bar">
-        <Link to="/"><img src={process.env.PUBLIC_URL + '/Nav_Images/MINA.png'} alt="brand" className='nav-brand' /></Link>
-        <ul>
-          <li><Link to="/shop">Shop</Link></li>
-          <li><Link to="/about" className='drop-down'>About <span>&#9660;</span></Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/">Cart (0)</Link></li>
+        <NavLink to="/"><img src={process.env.PUBLIC_URL + '/Nav_Images/MINA.png'} alt="brand" className={`nav-brand`} /></NavLink>
+        <ul className={`${handleActive}`}>
+          <li><NavLink to="/shop">Shop</NavLink></li>
+          <li>
+            <NavLink to="/about" >About</NavLink><span>&#9660;</span>
+            <NavLink to="/sustainability" className={`sustain-link`}>Sustainability</NavLink>
+          </li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
+          <li><NavLink to="/">Cart (0)</NavLink></li>
         </ul>
       </div>
     </div>
