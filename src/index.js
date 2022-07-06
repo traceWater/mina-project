@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //components
 import About from "./pages/About/About";
+import Sustainability from "./pages/About/Sustainability/Sustainability";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import MinaDetail from "./pages/MinaDetail/MinaDetail";
@@ -22,6 +23,7 @@ root.render(
       <Route path={"/"} element={<App />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="sustainability" element={<Sustainability />} />
         <Route path="contact" element={<Contact />} />
         <Route path="minaDetail" element={<MinaDetail />} />
         <Route path="nav" element={<Nav />} />
