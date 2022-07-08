@@ -1,0 +1,97 @@
+#aboutSustainabilityTitle {
+  display: inline-block;
+  font-size: 70pt;
+  color: white;
+  margin-top: 160px;
+  margin-left: -240px;
+  position: absolute;
+}
+
+#aboutBlueLeafImage {
+  display: inline-block;
+  height: 400px;
+  margin-top: 32px;
+  z-index: -1;
+  width: 100%;
+}
+
+#aboutTaglineWeCare {
+  width: 100%;
+  height: 188.78px;
+  margin-top: 100px;
+  font-size: 18pt;
+  color: #4d2c57;
+}
+
+.aboutWorkingEthosWrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 238, 227);
+}
+
+#aboutWorkingEthosImage {
+  width: 50%;
+  float: left;
+}
+
+#aboutWorkingEthosTitle {
+  display: inline-block;
+  margin-top: 130px;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 28pt;
+  font-weight: 400px;
+  color: #332c57;
+  width: 100%;
+}
+
+#aboutWorkingEthosText {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 16pt;
+  color: #4d2c57;
+}
+.aboutOrangeMaterialsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#aboutImageOrange {
+  display: inline-block;
+  height: 550px;
+}
+.aboutMaterialsWrapper {
+  display: inline-block;
+  width: 50%;
+  height: 550px;
+  background-color: rgb(221, 154, 94);
+}
+
+#aboutTitleMaterials {
+  display: inline-block;
+  text-align: left;
+  padding: 30px;
+  padding-top: 70px;
+  font-size: 26pt;
+  width: 100%;
+  color: #4d2c57;
+}
+
+#aboutTextMaterials {
+  display: inline-block;
+  background-color: rgb(221, 154, 94);
+  text-align: left;
+  padding: 30px;
+  font-size: 16pt;
+  color: #4d2c57;
+}
+
+#aboutReadButton {
+  width: 170px;
+  height: 60px;
+  font-size: 14pt;
+  color: #4d2c57;
+  border-style: none;
+}
