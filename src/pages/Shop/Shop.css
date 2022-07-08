@@ -1,31 +1,38 @@
-
 /* Top images with title-shop centered */
-  .centerShop {
-    font-size: 75pt;
-    font-weight: 10;
-    margin-top: 95px;
-    color: rgb(240, 233, 233);
-    margin-left: -130px;
-    display: inline-block;
-    position: absolute;
-  }
+.centerShop {
+  font-size: 75pt;
+  font-weight: 10;
+  margin-top: 95px;
+  color: rgb(240, 233, 233);
+  margin-left: -130px;
+  display: inline-block;
+  position: absolute;
+}
+#centerHeroShops {
+  display: inline-block;
+  width: 100%;
+}
 
 img {
-    max-width: 100%;
-  }
+  max-width: 100%;
+}
+#heroShop {
+  width: 100%;
+}
 
 .content {
-    max-width: 1150px;
-    margin: 0 auto;
-  }
+  max-width: 1150px;
+  margin: 0 auto;
+}
 
-  .shop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-  }
+.shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
 
-  .toCart, .shops {
-    display: flex;
-    gap: 20px;
-  }
+.toCart,
+.shops {
+  display: flex;
+  gap: 20px;
+}

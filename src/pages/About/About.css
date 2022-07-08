@@ -30,8 +30,8 @@
 }
 
 #aboutLadiesImage {
-  width: 61%;
-  margin-left: -6%;
+  width: 57%;
+  margin-left: -5%;
   float: left;
 }
 
@@ -66,7 +66,8 @@
 .aboutSustainabilityWrapper {
   display: inline-block;
   height: 550px;
-  background-color: rgb(221, 154, 94);
+  width: 45%;
+  background-color: #f1884c;
 }
 
 #aboutTitleSustainability {
@@ -74,26 +75,29 @@
   text-align: left;
   padding-top: 70px;
   padding-bottom: 50px;
-  font-size: 26pt;
+  font-size: 36pt;
+  font-weight: 460;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   width: 75%;
-  color: #4d2c57;
+  color: white;
 }
 
 #aboutTextSustainability {
   display: inline-block;
-  background-color: rgb(221, 154, 94);
+  background-color: #f1884c;
   text-align: left;
   padding-left: 30px;
   padding-bottom: 50px;
   width: 80%;
   font-size: 16pt;
-  color: #4d2c57;
+  color: white;
 }
 
 #aboutReadButton {
   width: 170px;
   height: 60px;
   font-size: 14pt;
-  color: #4d2c57;
   border-style: none;
+  background-color: white;
 }
