@@ -18,7 +18,7 @@ function Nav() {
         <ul className={`${handleActive}`}>
           <li><NavLink to="/shop">Shop</NavLink></li>
           <li>
-            <NavLink to="/about" >About</NavLink><span>&#9660;</span>
+            <NavLink to="/about">About</NavLink><span>&#9660;</span>
             <NavLink to="/sustainability" className={`sustain-link`}>Sustainability</NavLink>
           </li>
           <li><NavLink to="/contact">Contact</NavLink></li>
