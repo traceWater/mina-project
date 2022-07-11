@@ -4,9 +4,8 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <div className="container"> </div>
       <span id="aboutMinaTitle">About Mina</span>
-      <div className="aboutHeroContainer">
+      <div>
         <img
           id="aboutPinkLeafImage"
           src={
@@ -19,18 +18,17 @@ function About() {
         Mina is a brand born out of love for ceramics, vivid <br />
         colours and passion for life.
       </div>
-      {/* /////////////////////////////////////////////// */}
-      <div className="aboutFriendTextWrapper">
+      <div className="aboutLadiesWrapper">
         <img
-          id="aboutFriendsImage"
+          id="aboutLadiesImage"
           src={
             process.env.PUBLIC_URL +
             "/AboutImages/pexels-cottonbro-YKb0eZ64DRiPyZoD.webp"
           }
-          alt="FriendsImage"
+          alt="LadiesImage"
         />
-        <div>
-          <p id="aboutTitleAlex"> Alex & Laura </p>
+        <div className="aboutAlexLauraTextWrapper">
+          <p id="aboutTitleAlexLaura"> Alex & Laura </p>
           <p id="aboutTextAlexLaura">
             Two creative minds that came together at art school, Alex and Laura
             founded Mina with a shared passion for design and sustainability.
@@ -45,26 +43,26 @@ function About() {
             Join us on our mission to fill every home with beautiful,
             sustainable décor.
           </p>
-        </div>{" "}
+        </div>
       </div>
-      <div className="aboutImageGoldWrapper">
-        <div id="aboutImageGold">
+      <div className="aboutImagePlantWrapper">
+        <div>
           <img
-            id="aboutImageGold"
+            id="aboutImagePlant"
             src={
               process.env.PUBLIC_URL +
               "/AboutImages/Rectangle-YrDPEe422ktklvXj.avif"
             }
-            alt="GoldPlantImage"
+            alt="PlantImage"
           />
         </div>
-        <div id="aboutSustainability">
-          Sustainability
-          <p id="aboutOurThoughts">
+        <div className="aboutSustainabilityWrapper">
+          <div id="aboutTitleSustainability">Sustainability</div>
+          <p id="aboutTextSustainability">
             Our thoughts about the planet impact everything we do, from the clay
             we use to the packaging we provide. Find out how we stay
             responsible.
-          </p>{" "}
+          </p>
           <button id="aboutReadButton"> Read More</button>
         </div>
       </div>

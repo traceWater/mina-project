@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import "./Shop.css";
 
@@ -97,5 +97,5 @@ export default function Shop() {
          </div> 
       </div>
     </div>
-  )
+  );
 }
