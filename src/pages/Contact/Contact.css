@@ -1,0 +1,145 @@
+#contactHeroTitle {
+  display: inline-block;
+  font-size: 70pt;
+  color: white;
+  margin-top: 160px;
+  margin-left: -240px;
+  position: absolute;
+}
+
+#contactHeroImage {
+  display: inline-block;
+  height: 400px;
+  margin-top: 32px;
+  width: 100%;
+  margin-bottom: 146px;
+}
+
+.contactWrapper {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+.contactHqLeftSide {
+  display: flex;
+  flex-direction: column;
+  padding-left: 9.7%;
+}
+
+#contactHqTitle {
+  display: inline-block;
+  text-align: left;
+  font-size: 25pt;
+  margin-left: -1px;
+  font-weight: 500;
+  color: #4d2c57;
+}
+
+#contactHqText {
+  display: inline-block;
+  text-align: left;
+  font-size: 16pt;
+  color: #4d2c57;
+  margin-top: 20px;
+}
+
+#contactCollaborationsTitle {
+  display: inline-block;
+  text-align: left;
+  font-size: 25pt;
+  color: #4d2c57;
+  font-weight: 500;
+  margin-left: -1px;
+  margin-top: 50px;
+}
+
+#contactCollaborationsText {
+  display: inline-block;
+  text-align: left;
+  font-size: 14pt;
+  color: #4d2c57;
+  margin-top: -20px;
+}
+/* /////////////////////////////////// */
+
+.contactFormRightSide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 390px;
+}
+
+#contactFormTitle {
+  font-size: 25pt;
+  color: #4d2c57;
+  font-weight: 500;
+  text-align: left;
+  margin-left: -4px;
+}
+
+.contactFormGroup {
+  padding-top: 8px;
+}
+
+#formItem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 700px;
+  font-size: 14pt;
+  color: #4d2c57;
+}
+
+#formItem input {
+  width: 500px;
+  height: 40px;
+  background-color: rgb(237, 241, 234);
+  border-style: none;
+}
+
+#contactLabel {
+  padding-left: 40px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  margin-left: -40px;
+}
+/* 
+#contactLableLast {
+  padding-left: 40px;
+  margin-bottom: 5px;
+  margin-left: -40px;
+}
+
+#contactLabelEmail {
+  padding-left: 40px;
+  margin-bottom: 5px;
+  margin-left: -40px;
+}
+*/
+#contactMessageLabel {
+  padding-top: 5px;
+  margin-top: 10px;
+}
+
+#contactMessageInput {
+  width: 500px;
+  height: 40px;
+  background-color: rgb(237, 241, 234);
+  border-style: none;
+  height: 120px;
+}
+
+#contactButton {
+  text-align: left;
+}
+
+#contactButtonInput {
+  text-align: center;
+  color: #4d2c57;
+  font-weight: 500;
+  font-size: 12pt;
+  margin-top: 32px;
+  width: 140px;
+  height: 60px;
+  background-color: white;
+}
