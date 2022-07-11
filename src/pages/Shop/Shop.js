@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 import "./Shop.css";
 
-
+// updated july 11, 2022 @8:49am
 export default function Shop() {
   return (
     <div>
