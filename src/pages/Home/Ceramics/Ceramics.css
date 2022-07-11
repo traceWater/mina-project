@@ -38,6 +38,7 @@ img {
   background-color: #fff;
   border: 2px solid #fff;
   color: #4d2c57;
+  cursor: pointer;
   font-size: 16px;
   padding: 14px 40px;
 }
