@@ -1,4 +1,5 @@
 .home-container {
+  box-sizing: border-box;
   height: fit-content;
   position: relative;
   width: 100vw;

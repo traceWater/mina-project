@@ -29,7 +29,7 @@ li {
   position: relative;
 }
 
-a {
+.nav-link {
   color: black;
   cursor: pointer;
   font-size: 18px;
@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.nav-link:hover {
   text-decoration: underline;
 }
 

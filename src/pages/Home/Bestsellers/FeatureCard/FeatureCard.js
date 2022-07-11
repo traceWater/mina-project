@@ -6,7 +6,7 @@ import "./FeatureCard.css";
 function FeatureCard({ title, image, price }) {
   return (
     <div className="feature-container">
-      <div className="img-container">
+      <div className="feature-image-container">
         <img src={image} alt={title} />
       </div>
       <h6 className="feature-title">{title}</h6>
