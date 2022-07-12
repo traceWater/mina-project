@@ -1,0 +1,9 @@
+.about-mina-container {
+  box-sizing: border-box;
+  color: #4d2c57;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  padding: 56px 16px;
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+.footer-container {
+  align-items: center;
+  background-color: #f6f7f6;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  padding: 40px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.social-media-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-container {
+  height: 48px;
+  width: 80px;
+}
+
+.social-media {
+  margin-top: 16px;
+}
+
+.icon {
+  height: 20px;
+  padding-right: 40px;
+  width: 20px;
+}
+
+.policy-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.policy-link {
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.policy-title {
+  font-size: 16px;
+}

@@ -1,0 +1,22 @@
+.feature-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-image-container {
+  height: 304px;
+  width: 288px;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+
+.feature-price {
+  font-size: 18px;
+  font-weight: 400;
+}
