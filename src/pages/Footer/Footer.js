@@ -1,13 +1,5 @@
 import React from "react";
 
-//fontawesome
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-
 //react router
 import { Link } from "react-router-dom";
 
@@ -26,10 +18,32 @@ function Footer() {
           />
         </div>
         <div className="social-media">
-          <FontAwesomeIcon icon={faTwitter} className="icon" />
-          <FontAwesomeIcon icon={faFacebook} className="icon" />
-          <FontAwesomeIcon icon={faInstagram} className="icon" />
+          <img
+            className="icon"
+            src={process.env.PUBLIC_URL + "/Footer_Images/twitter.png"}
+            alt="twitter"
+          />
+          <img
+            className="icon"
+            src={process.env.PUBLIC_URL + "/Footer_Images/facebook.png"}
+            alt="facebook"
+          />
+          <img
+            className="icon"
+            src={process.env.PUBLIC_URL + "/Footer_Images/instagram.png"}
+            alt="instagram"
+          />
         </div>
+        <p style={{ fontSize: "10px" }}>
+          icons provided by{" "}
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://icons8.com"
+          >
+            Icons8
+          </a>
+        </p>
       </div>
       <div className="policy-container">
         <ul>
