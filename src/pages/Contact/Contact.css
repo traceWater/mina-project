@@ -1,3 +1,6 @@
+@media only screen (min-width: 508px) {
+}
+
 #contactHeroTitle {
   display: inline-block;
   font-size: 70pt;
@@ -18,7 +21,8 @@
 .contactWrapper {
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
+  padding-bottom: 10px;
 }
 .contactHqLeftSide {
   display: flex;
@@ -41,6 +45,7 @@
   font-size: 16pt;
   color: #4d2c57;
   margin-top: 20px;
+  width: 240px;
 }
 
 #contactCollaborationsTitle {
@@ -65,7 +70,7 @@
 .contactFormRightSide {
   display: flex;
   flex-direction: column;
-  margin-left: 390px;
+  margin-left: 316px;
 }
 
 #contactFormTitle {
@@ -87,14 +92,20 @@
   align-items: flex-start;
   width: 700px;
   font-size: 14pt;
+  font-weight: 400;
   color: #4d2c57;
 }
 
 #formItem input {
-  width: 500px;
+  width: 590px;
   height: 40px;
-  background-color: rgb(237, 241, 234);
+  background-color: rgb(238, 238, 238);
   border-style: none;
+}
+
+#formItem input:focus {
+  border-style: none;
+  outline: none;
 }
 
 #contactLabel {
@@ -103,30 +114,25 @@
   margin-bottom: 5px;
   margin-left: -40px;
 }
-/* 
-#contactLableLast {
-  padding-left: 40px;
-  margin-bottom: 5px;
-  margin-left: -40px;
-}
 
-#contactLabelEmail {
-  padding-left: 40px;
-  margin-bottom: 5px;
-  margin-left: -40px;
-}
-*/
 #contactMessageLabel {
   padding-top: 5px;
   margin-top: 10px;
 }
 
 #contactMessageInput {
-  width: 500px;
-  height: 40px;
-  background-color: rgb(237, 241, 234);
+  width: 590px;
+  height: 28px;
+  background-color: rgb(238, 238, 238);
   border-style: none;
-  height: 120px;
+  outline: none;
+  height: 90px;
+  padding-top: 12px;
+}
+
+#contactMessageInput:focus {
+  border-style: none;
+  outline: none;
 }
 
 #contactButton {
@@ -136,10 +142,24 @@
 #contactButtonInput {
   text-align: center;
   color: #4d2c57;
+  background-color: white;
   font-weight: 500;
   font-size: 12pt;
   margin-top: 32px;
   width: 140px;
   height: 60px;
-  background-color: white;
+  border-color: #4d2c57;
+}
+
+#contactButtonInput:hover {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12pt;
+  margin-top: 32px;
+  width: 140px;
+  height: 60px;
+  color: white;
+  border-style: solid;
+  background-color: #4d2c57;
+  border-color: #4d2c57;
 }

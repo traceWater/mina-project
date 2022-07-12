@@ -1,70 +1,55 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+﻿README.md
+@@ -1,29 +1,30 @@
+# Alphaworks -  Bitwise React Apprenticeship Program
+## Table of contents
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+## Overview
+This website was created as a method to collaborate with team mates using GitHub collaboration and merges.  
+The exercise is intended to provide practicle experience working in development teams in the GitHub environment. 
+### The challenge
+- Identify a website to duplicate that was not too difficult and work with team mates to develop the repository and keep the project on task and in scope.
+ Learn to use best practices within a team and identify and resolve conflicts as they arise. 
+### Designs
+####[Actula Website Here](https://zyro.com/preview/minalite?returnPath=%2Ftemplates&defaultTemplateId=mina)
+### Links
+- Solution URL: (https://github.com/traceWater/mina-project)
+- Live Site URL: (TO BE DETERMINED)
+## Our process
+I reviewed the design and determined the layout contained a Hero, four rows, and a footer component.  Within each component there were various graphics, navigation, and fonts to be considered. 
+### Built with
+- [Custom CSS] (https://www.w3.org/Style/CSS/Overview.en.html)
+- [React](https://reactjs.org/)
+- [JavaScript] (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+### What We learned
+we learned that creating the repository and setting the project up from the beginning is critical to having full functionality in GitHub.
+- Select one person to be the merge master to keep Pull and Merge activity in Sync
+- COMMUNICATE, COMMUNICATE, COMMUNICATE.  We did this well and had only a couple of minor conflicts to resolve.
+- Select one person to be the merge master
+- Only push to your dev branch and not main/master branches.
+- Plan the project development standards such as .css naming conventions
+- Segmenting the project and documenting individual tasks and responsibility keeps everyone in sync 
+- Work only on your component parts of the project.
+- If working on other members components, only do so after a push/merge/pull
+- Only one person working in a component at a time between pulls.
+### Useful resources
+- [React](https://reactjs.org/)
+-[Resources for Developers, by Developers](https://developer.mozilla.org/en-US/)
+- [Custom CSS] (https://www.w3.org/Style/CSS/Overview.en.html)
+## Author
+- Kevin Harger - Developer
+  - [Website]( https://github.com/kevinh21) , (https://kevinharger.com)
+  - [Linkedin]( linkedin.com/in/kevin-h-b4230611)
+- Edward Arasato
+  - [Website]( https://github.com/Aim4dabush)
+  - [Linkedin]( ED LINKED IN GOES HERE)
+- Dale Cottrell
+  - [Website]( https://github.com/kevinh21)
+  - [Linkedin]( none available)
