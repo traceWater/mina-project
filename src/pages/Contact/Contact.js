@@ -44,21 +44,31 @@ const Contact = () => {
                 <label id="contactLabel" htmlFor="name">
                   Name*
                 </label>
-                <input type="text" required />
+                <input
+                  type="text"
+                  required
+                  placeholder="   Your name"
+                  // onfocus="placeholder = 'not working'"
+                  // onblur="this.placeholder = 'name Not working'"
+                />
               </div>
 
               <div id="formItem">
                 <label id="contactLabel" htmlFor="last">
                   Last Name
                 </label>
-                <input type="text" required />
+                <input type="text" required placeholder="   Your last name" />
               </div>
 
               <div id="formItem">
                 <label id="contactLabel" htmlFor="email">
                   Your email*
                 </label>
-                <input type="email" required />
+                <input
+                  type="email"
+                  required
+                  placeholder="   Your email address"
+                />
               </div>
 
               <div id="formItem">
@@ -71,6 +81,7 @@ const Contact = () => {
                   required
                   rows="5"
                   cols="33"
+                  placeholder="  Enter your message"
                 ></textarea>
               </div>
 
