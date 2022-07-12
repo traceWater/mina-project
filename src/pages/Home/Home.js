@@ -5,6 +5,8 @@ import AboutMina from "./AboutMina/AboutMina";
 import Bestsellers from "./Bestsellers/Bestsellers";
 import Ceramics from "./Ceramics/Ceramics";
 import HomeDecor from "./HomeDecor/HomeDecor";
+import Instagram from "./Instagram/Instagram";
+import Newsletter from "./Newsletter/Newsletter";
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
       <Bestsellers />
       <HomeDecor />
       <AboutMina />
+      <Newsletter />
+      <Instagram />
     </div>
   );
 }

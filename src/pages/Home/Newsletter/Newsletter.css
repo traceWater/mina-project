@@ -1,0 +1,40 @@
+.newsletter-container {
+  height: fit-content;
+  position: relative;
+  width: 100%;
+}
+
+.newsletter-content-container {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  left: 28%;
+  position: absolute;
+  top: 30%;
+}
+
+.newsletter-title {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+.newsletter-input {
+  border: none;
+  font-size: 14px;
+  opacity: 0.8;
+  outline: none;
+  padding: 16px 56px 16px 16px;
+  width: 320px;
+}
+
+.newsletter-button {
+  border: none;
+  color: #4d2c57;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 16px;
+  padding: 14px 40px;
+}
