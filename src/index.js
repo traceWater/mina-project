@@ -12,7 +12,6 @@ import About from "./pages/About/About";
 import Sustainability from "./pages/About/Sustainability/Sustainability";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
-import MinaDetail from "./pages/MinaDetail/MinaDetail";
 import Nav from "./pages/Nav/Nav";
 import Shop from "./pages/Shop/Shop";
 
@@ -25,7 +24,6 @@ root.render(
         <Route path="about" element={<About />} />
         <Route path="sustainability" element={<Sustainability />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="minaDetail" element={<MinaDetail />} />
         <Route path="nav" element={<Nav />} />
         <Route path="shop" element={<Shop />} />
       </Route>
