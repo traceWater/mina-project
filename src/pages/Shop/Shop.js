@@ -1,16 +1,9 @@
 import { Link } from "react-router-dom";
-// import { useState } from 'react'
 
 import "./Shop.css";
 
-
 export default function Shop() {
 
-
-  //  const [p, setP] = useState()
-  //  const handleOnClick = (event) => {
-  //    setP(event.target.alt) 
-  //   }
 
   return (
     <div>
@@ -20,10 +13,7 @@ export default function Shop() {
           {[0].map(p => (
             <div key={p}>
               <Link to={`/shopsTop/${p}`}>
-                <img id="heroShop" src={ process.env.PUBLIC_URL + "/ShopImages/TopShopImage.png"}
-                 alt="HeroImage"
-                //  onClick={handleOnClick} alt={0}
-                />
+                <img id="heroShop" src={ process.env.PUBLIC_URL + "/ShopImages/TopShopImage.png"} alt="HeroImage" />
               </Link>
             </div>
            ))}
@@ -37,9 +27,7 @@ export default function Shop() {
           {[1].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-1" src={ process.env.PUBLIC_URL + "/ShopImages/tanVaseBlueBall.png"} alt="r1"
-                //  onClick={handleOnClick} alt={1}
-                />
+                <img id="row-1" src={ process.env.PUBLIC_URL + "/ShopImages/tanVaseBlueBall.png"} alt="'Balance' Vase" />
               </Link>
               <h2 className='one'>'Balance' Vase</h2>
               <p className='one-a'>$79.99</p>
@@ -48,9 +36,7 @@ export default function Shop() {
           {[2].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-1" src={ process.env.PUBLIC_URL + "/ShopImages/greenVaseBluePuck.png"} alt="r1"
-                //  onClick={handleOnClick} alt={1}
-                 />
+                <img id="row-1" src={ process.env.PUBLIC_URL + "/ShopImages/greenVaseBluePuck.png"} alt="'Binocular' Vase" />
               </Link>
               <h2 className='one'>'Binocular' Vase</h2>
               <p className='one-a'>$49.99</p>
@@ -59,9 +45,7 @@ export default function Shop() {
           {[3].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-1" src={ process.env.PUBLIC_URL + "/ShopImages/orangeBallGreenStem.png"} alt="r1"
-                //  onClick={handleOnClick} alt={1}
-                 />
+                <img id="row-1" src={ process.env.PUBLIC_URL + "/ShopImages/orangeBallGreenStem.png"} alt="'Bubble' Flowerpot" />
               </Link>
               <h2 className='one'>'Bubble' Flowerpot</h2>
               <p className='one-a'>$49.99</p>
@@ -74,9 +58,7 @@ export default function Shop() {
           {[4].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-2" src={ process.env.PUBLIC_URL + "/ShopImages/greyVasePurpleRag.png"} alt="r2"
-                // onClick={handleOnClick} alt={2}
-                />
+                <img id="row-2" src={ process.env.PUBLIC_URL + "/ShopImages/greyVasePurpleRag.png"} alt="'Bulb' Vase" />
               </Link>
               <h2 className='one'>'Bulb' Vase</h2>
               <p className='one-a'>$39.99</p>
@@ -85,9 +67,7 @@ export default function Shop() {
           {[5].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-2" src={ process.env.PUBLIC_URL + "/ShopImages/yellowVaseCactus.png"} alt="r2"
-                // onClick={handleOnClick} alt={2}
-                />
+                <img id="row-2" src={ process.env.PUBLIC_URL + "/ShopImages/yellowVaseCactus.png"} alt="'Candy' Flowerpot" />
               </Link>
               <h2 className='one'>'Candy' Flowerpot</h2>
               <p className='one-a'>$59.99</p>
@@ -96,9 +76,7 @@ export default function Shop() {
           {[6].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-2" src={ process.env.PUBLIC_URL + "/ShopImages/whiteVaseTwoPucksTanPur.png"} alt="r2"
-                // onClick={handleOnClick} alt={2}
-                />
+                <img id="row-2" src={ process.env.PUBLIC_URL + "/ShopImages/whiteVaseTwoPucksTanPur.png"} alt="'Drop' Vase" />
               </Link>
               <h2 className='one'>'Drop' Vase</h2>
               <p className='one-a'>$49.99</p>
@@ -111,9 +89,7 @@ export default function Shop() {
           {[7].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-3" src={ process.env.PUBLIC_URL + "/ShopImages/yellowVaseTwoArches.png"} alt="r3"
-                // onClick={handleOnClick} alt={3}
-                />
+                <img id="row-3" src={ process.env.PUBLIC_URL + "/ShopImages/yellowVaseTwoArches.png"} alt="'Mango' Flowerpot" />
               </Link>
               <h2 className='one'>'Mango' Vase</h2>
               <p className='one-a'>$49.99</p>
@@ -122,9 +98,7 @@ export default function Shop() {
           {[8].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-3" src={ process.env.PUBLIC_URL + "/ShopImages/yellowVase-U-Aside.png"} alt="r3"
-                // onClick={handleOnClick} alt={3}
-                />
+                <img id="row-3" src={ process.env.PUBLIC_URL + "/ShopImages/yellowVase-U-Aside.png"} alt="'Sun' Vase" />
               </Link>
               <h2 className='one'>'Sun' Vase</h2>
               <p className='one-a'>$59.99</p>
@@ -133,9 +107,7 @@ export default function Shop() {
           {[9].map(p => (
             <div key={p}>
               <Link to={`/shop/${p}`}>
-                <img id="row-3" src={ process.env.PUBLIC_URL + "/ShopImages/tanTribelDisc.png"} alt="r3"
-                // onClick={handleOnClick} alt={3}
-                />
+                <img id="row-3" src={ process.env.PUBLIC_URL + "/ShopImages/tanTribelDisc.png"} alt="'Wave' Vase" />
               </Link>
               <h2 className='one'>'Wave' Vase</h2>
               <p className='one-a'>$69.99</p>
