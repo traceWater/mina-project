@@ -16,7 +16,6 @@ const Contact = () => {
           />
         </div>
       </div>
-
       <div className="contactWrapper">
         <section className="contactHqLeftSide">
           <span id="contactHqTitle">Headquarters</span>
