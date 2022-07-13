@@ -1,55 +1,72 @@
 /* Top images with title-shop centered */
 .topCenterShop {
+  display: inline-block;
   font-size: 68pt;
   font-weight: 10;
   margin-top: 140px;
   color: rgb(240, 233, 233);
   margin-left: -130px;
-  display: inline-block;
   position: absolute;
 }
 
 #heroShop {
-  width: 120%;
-  height: 22rem;
+  display: inline-block;
+  height: 370px;
+  max-width: 100%;
   padding-top: 20px;
+  z-index: -1;
   padding-bottom: 80px;
 }
 
 .container {
   display: grid;
-  max-width: 1080px;
-  grid-template-columns: 1fr, 1fr;
-  grid-template-rows: 75vh;
+  max-width: 100vw;
   margin: 0 auto;
-  grid-gap: 0px 0px;
 }
 
 img {
-    max-width: 120%;
+    max-width: 100%;
+  }
+
+  .shop {
+    margin-left: 105px;
+    display: flex;
+    gap: 20px;
   }
 
 #row-1 {
   width: 100%;
   height: 22rem;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 
 #row-2 {
   width: 100%;
   height: 22rem;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 #row-3 {
   width: 100%;
   height: 22rem;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
+} 
+
+.one {
+  text-align: left;
+  font-size: 15pt;
+  color: rgb(15, 15, 15);
+  font-weight: 450;
+  margin-bottom: 14px;
+}
+.one-a {
+  text-align: left;
+  font-size: 12pt;
+  color: #4d2c57;
+  font-weight: 400;
+  margin-top: 0px;
 }
 
-  .toCart, .shops {
-    display: flex;
-    gap: 20px;
-  }
+
