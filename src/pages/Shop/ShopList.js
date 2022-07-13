@@ -1,4 +1,4 @@
-export const shop = [
+export const Shop = [
 
     {
         id: "0",
