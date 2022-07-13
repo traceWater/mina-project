@@ -1,12 +1,10 @@
 import { useParams } from "react-router-dom";
-import { Shop } from './ShopList';
-
+import { Shop } from "./ShopList";
 
 export default function ShopDetails() {
   const { id } = useParams();
-  const listItem = Shop.find(item => {
+  const listItem = Shop.find((item) => {
     return item.id === id;
-
   });
 
   return (

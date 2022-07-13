@@ -26,9 +26,8 @@ root.render(
         <Route path="sustainability" element={<Sustainability />} />
         <Route path="contact" element={<Contact />} />
         <Route path="nav" element={<Nav />} />
-        <Route path="shop" element={<Shop />}>
-          <Route path=":id" element={<ShopDetails />} />
-        </Route>
+        <Route path="shop" element={<Shop />} />
+        <Route path="shop/:id" element={<ShopDetails />} />
       </Route>
     </Routes>
   </Router>
