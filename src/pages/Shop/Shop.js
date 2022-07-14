@@ -32,59 +32,59 @@ export default function Shop() {
       {showDetails ? (
         <Outlet context={[showDetails, setShowDetails]} />
       ) : (
-        <div className="container">
-          {/* ---------row-1-------- */}
-
-          <div className="shop">
-            {[1].map((p) => (
-              <div key={p}>
-                <Link to={`/shop/${p}`} onClick={handleOnClick}>
-                  <img
-                    id="row-1"
-                    src={
-                      process.env.PUBLIC_URL + "/ShopImages/tanVaseBlueBall.png"
-                    }
-                    alt="'Balance' Vase"
-                  />
-                </Link>
-                <h2 className="one">'Balance' Vase</h2>
-                <p className="one-a">$79.99</p>
-              </div>
-            ))}
-            {[2].map((p) => (
-              <div key={p}>
-                <Link to={`/shop/${p}`}>
-                  <img
-                    id="row-1"
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/ShopImages/greenVaseBluePuck.png"
-                    }
-                    alt="'Binocular' Vase"
-                  />
-                </Link>
-                <h2 className="one">'Binocular' Vase</h2>
-                <p className="one-a">$49.99</p>
-              </div>
-            ))}
-            {[3].map((p) => (
-              <div key={p}>
-                <Link to={`/shop/${p}`}>
-                  <img
-                    id="row-1"
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/ShopImages/orangeBallGreenStem.png"
-                    }
-                    alt="'Bubble' Flowerpot"
-                  />
-                </Link>
-                <h2 className="one">'Bubble' Flowerpot</h2>
-                <p className="one-a">$49.99</p>
-              </div>
-            ))}
-          </div>
-
+           
+      <div className="container">
+        
+        {/* ---------row-1-------- */}
+        <div className="shop">
+          {[1].map((p) => (
+            <div key={p}>
+              <Link to={`/shop/${p}`}>
+                <img
+                  id="row-1"
+                  src={
+                    process.env.PUBLIC_URL + "/ShopImages/tanVaseBlueBall.png"
+                  }
+                  alt="'Balance' Vase"
+                />
+              </Link>
+              <h2 className="one">'Balance' Vase</h2>
+              <p className="one-a">$79.99</p>
+            </div>
+          ))}
+          {[2].map((p) => (
+            <div key={p}>
+              <Link to={`/shop/${p}`}>
+                <img
+                  id="row-1"
+                  src={
+                    process.env.PUBLIC_URL + "/ShopImages/greenVaseBluePuck.png"
+                  }
+                  alt="'Binocular' Vase"
+                />
+              </Link>
+              <h2 className="one">'Binocular' Vase</h2>
+              <p className="one-a">$49.99</p>
+            </div>
+          ))}
+          {[3].map((p) => (
+            <div key={p}>
+              <Link to={`/shop/${p}`}>
+                <img
+                  id="row-1"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/ShopImages/orangeBallGreenStem.png"
+                  }
+                  alt="'Bubble' Flowerpot"
+                />
+              </Link>
+              <h2 className="one">'Bubble' Flowerpot</h2>
+              <p className="one-a">$49.99</p>
+            </div>
+          ))}
+        </div>
+      
           {/* ---------row-2-------- */}
           <div className="shop">
             {[4].map((p) => (
