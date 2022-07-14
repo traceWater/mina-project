@@ -1,13 +1,15 @@
 import { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 
 import "./Shop.css";
 
 export default function Shop() {
+  const navigate = useNavigate();
   const [showDetails, setShowDetails] = useState(false);
 
   const handleOnClick = () => {
     setShowDetails(true);
+    navigate(-1);
   };
 
   return (
