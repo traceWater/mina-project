@@ -4,26 +4,26 @@ import "./Sustainability.css";
 function Sustainability() {
   return (
     <div>
-      <span id="aboutSustainabilityTitle">Sustainability</span>
+      <span id="sustainabilitySustainabilityTitle">Sustainability</span>
       <img
-        id="aboutHeroLeafImage"
+        id="sustainabilityHeroLeafImage"
         src={process.env.PUBLIC_URL + "/AboutImages/Frame-AGBpDkZaG5cRpbaw.png"}
         alt="HeroImage"
       />
-      <div id="aboutTaglineWeCare">
+      <div id="sustainabilityTaglineWeCare">
         We care about our planet. For this reason, Sustainability aims to
         <br /> be operating sustainably and ethically at every level.
       </div>
-      <div className="aboutGridContainer">
+      <div className="sustainabilityGridContainer">
         <img
-          id="aboutWorkingEthosImage"
+          id="sustainabilityWorkingEthosImage"
           src={process.env.PUBLIC_URL + "/AboutImages/A1aynE83WJc9WylX.avif"}
           alt="EthosImage"
         />
-        <div className="aboutTitleWorkingEthosTitlecontainer">
-          <div className="aboutWorkingEthosTextWrapper">
-            <p id="aboutWorkingEthosTitle"> Working Ethos </p>
-            <p id="aboutWorkingEthosText">
+        <div className="sustainabilityTitleWorkingEthosTitlecontainer">
+          <div className="sustainabilityWorkingEthosTextWrapper">
+            <p id="sustainabilityWorkingEthosTitle"> Working Ethos </p>
+            <p id="sustainabilityWorkingEthosText">
               For Alex and Laura, planning ahead is a central component of
               sustainable design. Work begins with sketches of ideas before any
               clay is modeled. Fully conceptualizing and refining each design
@@ -39,14 +39,14 @@ function Sustainability() {
         </div>
 
         <img
-          id="aboutImageOrange"
+          id="sustainabilityImageOrange"
           src={process.env.PUBLIC_URL + "/AboutImages/pp-AoP0LMM1VPTawJL6.avif"}
           alt="OrangePlantImage"
         />
 
-        <div className="aboutMaterialsWrapper">
-          <div id="aboutTitleMaterials">Materials </div>
-          <p id="aboutTextMaterials">
+        <div className="sustainabilityMaterialsWrapper">
+          <div id="sustainabilityTitleMaterials">Materials </div>
+          <p id="sustainabilityTextMaterials">
             Surrounded by beautiful landscapes, it is only right that our studio
             is stocked with only the finest local materials that haven't had to
             travel far to get to us. Our clay is as locally sourced as possible

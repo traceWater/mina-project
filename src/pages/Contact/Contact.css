@@ -1,5 +1,5 @@
-@media only screen (min-width: 508px) {
-}
+/* @media only screen (min-width: 508px) {
+} */
 
 #contactHeroTitle {
   display: inline-block;
@@ -27,25 +27,26 @@
 .contactHqLeftSide {
   display: flex;
   flex-direction: column;
-  padding-left: 9.7%;
+  padding-left: 4.5%;
 }
 
 #contactHqTitle {
   display: inline-block;
   text-align: left;
-  font-size: 25pt;
+  font-size: 22pt;
   margin-left: -1px;
-  font-weight: 500;
+  font-weight: 450;
   color: #4d2c57;
 }
 
 #contactHqText {
   display: inline-block;
   text-align: left;
-  font-size: 16pt;
+  font-size: 12pt;
   color: #4d2c57;
-  margin-top: 20px;
-  width: 240px;
+  margin-top: 12px;
+  line-height: 24pt;
+  width: 260px;
 }
 
 #contactCollaborationsTitle {
@@ -70,7 +71,7 @@
 .contactFormRightSide {
   display: flex;
   flex-direction: column;
-  margin-left: 316px;
+  margin-left: 372px;
 }
 
 #contactFormTitle {
@@ -78,32 +79,28 @@
   color: #4d2c57;
   font-weight: 500;
   text-align: left;
-  margin-left: -4px;
+  margin-left: -2px;
 }
 
-.contactFormGroup {
-  padding-top: 8px;
-}
-
-#formItem {
+#contactFormItem {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
   width: 700px;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: 400;
   color: #4d2c57;
 }
 
-#formItem input {
+#contactFormItem input {
   width: 590px;
   height: 40px;
   background-color: rgb(238, 238, 238);
   border-style: none;
 }
 
-#formItem input:focus {
+#contactFormItem input:focus {
   border-style: none;
   outline: none;
 }
