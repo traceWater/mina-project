@@ -59,7 +59,6 @@ function Sustainability() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 
