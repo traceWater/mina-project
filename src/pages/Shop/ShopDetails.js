@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useOutletContext, useNavigate } from "react-router-dom";
 import { Shop } from "./ShopList";
 
 import "./Shop.css";
@@ -6,6 +6,14 @@ import "./Shop.css";
 
 export default function ShopDetails() {
   const { id } = useParams();
+  const navigate = useNavigate();
+  const [showDetails, setShowDetails] = useOutletContext();
+
+  const handleOnClick = () => {
+    setShowDetails(false);
+    navigate(-1);
+  };
+
   const listItem = Shop.find((item) => {
     return item.id === id;
   });

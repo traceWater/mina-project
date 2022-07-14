@@ -16,7 +16,6 @@ const Contact = () => {
           />
         </div>
       </div>
-
       <div className="contactWrapper">
         <section className="contactHqLeftSide">
           <span id="contactHqTitle">Headquarters</span>
@@ -40,7 +39,7 @@ const Contact = () => {
 
           <section className="contactFormGroup">
             <form Name="contactForm" method="post">
-              <div id="formItem">
+              <div id="contactFormItem">
                 <label id="contactLabel" htmlFor="name">
                   Name*
                 </label>
@@ -53,14 +52,14 @@ const Contact = () => {
                 />
               </div>
 
-              <div id="formItem">
+              <div id="contactFormItem">
                 <label id="contactLabel" htmlFor="last">
                   Last Name
                 </label>
                 <input type="text" required placeholder="   Your last name" />
               </div>
 
-              <div id="formItem">
+              <div id="contactFormItem">
                 <label id="contactLabel" htmlFor="email">
                   Your email*
                 </label>
@@ -71,7 +70,7 @@ const Contact = () => {
                 />
               </div>
 
-              <div id="formItem">
+              <div id="contactFormItem">
                 <label id="contactMessageLabel" htmlFor="message">
                   Message*
                 </label>
