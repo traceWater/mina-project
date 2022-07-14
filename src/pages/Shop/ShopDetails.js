@@ -1,29 +1,43 @@
 import { useParams } from "react-router-dom";
-import { Shop } from './ShopList';
+import { Shop } from "./ShopList";
+
+import "./Shop.css";
 
 
 export default function ShopDetails() {
   const { id } = useParams();
-  const listItem = Shop.find(item => {
+  const listItem = Shop.find((item) => {
     return item.id === id;
-
   });
-
+  
   return (
-    <div className="content">
+    <div className="">
       <div className="shop">
-        <div className="image">
-          <img src={listItem?.image} alt={listItem?.title} />
+
+        {/* <h1 className="detail-heroShop">
+        <img
+          id="heroShop"
+          src={process.env.PUBLIC_URL + "/ShopImages/TopShopImage.png"}
+          alt="HeroImage"
+          />
+        </h1> */}
+
+        <div className="detail-image">
+        <img src={listItem?.image} alt={listItem?.title} />
         </div>
-        <div className="details">
-          <h2>Shop - {id}</h2>
-          <p>
-            {listItem?.id}
-            {listItem?.title}
-            {listItem?.image}
-            {listItem?.price}
-          </p>
-        </div>
+
+        <h1>
+          <div className="detail-title">{listItem?.title}</div>
+          <div className="detail-price">{listItem?.price}</div>
+          <div className="detail-addtobag">Add to bag</div>
+          <div className="detail-bio">{listItem?.bio}</div>
+          <div className="detail-bio2">{listItem?.bio2}</div>
+          <div className="detail-material">{listItem?.material}</div>
+          <div className="detail-color">{listItem?.color}</div>
+          <div className="detail-measurements">{listItem?.measurements}</div>
+        </h1>
+        <h1>
+        </h1>
       </div>
     </div>
   );
