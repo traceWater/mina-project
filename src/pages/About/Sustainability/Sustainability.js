@@ -20,22 +20,20 @@ function Sustainability() {
           src={process.env.PUBLIC_URL + "/AboutImages/A1aynE83WJc9WylX.avif"}
           alt="EthosImage"
         />
-        <div className="sustainabilityTitleWorkingEthosTitlecontainer">
-          <div className="sustainabilityWorkingEthosTextWrapper">
-            <p id="sustainabilityWorkingEthosTitle"> Working Ethos </p>
-            <p id="sustainabilityWorkingEthosText">
-              For Alex and Laura, planning ahead is a central component of
-              sustainable design. Work begins with sketches of ideas before any
-              clay is modeled. Fully conceptualizing and refining each design
-              beforehand helps us to reduce material waste.
-              <br />
-              <p />
-              We strive to work collaboratively at every stage. Our team efforts
-              minimize energy usage in the studio.
-            </p>{" "}
+        <div className="sustainabilityWorkingEthosTextWrapper">
+          <p id="sustainabilityWorkingEthosTitle"> Working Ethos </p>
+          <p id="sustainabilityWorkingEthosText">
+            For Alex and Laura, planning ahead is a central component of
+            sustainable design. Work begins with sketches of ideas before any
+            clay is modeled. Fully conceptualizing and refining each design
+            beforehand helps us to reduce material waste.
             <br />
-            <br />
-          </div>
+            <p />
+            We strive to work collaboratively at every stage. Our team efforts
+            minimize energy usage in the studio.
+          </p>
+          <br />
+          <br />
         </div>
 
         <img

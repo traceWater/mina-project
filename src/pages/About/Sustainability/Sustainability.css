@@ -28,6 +28,10 @@
   color: #4d2c57;
 }
 
+#sustainabilityWorkingEthosTextWrapper {
+  display: block;
+}
+
 #sustainabilityWorkingEthosTitle {
   display: inline-block;
   text-align: left;
