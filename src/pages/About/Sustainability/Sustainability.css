@@ -3,7 +3,7 @@
   font-size: 70pt;
   color: white;
   margin-top: 160px;
-  margin-left: -300px;
+  margin-left: 30%;
   position: absolute;
 }
 
@@ -18,7 +18,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100%;
-  /* height: 550px; */
+  background-color: #f1f3f1;
 }
 #aboutTaglineWeCare {
   width: 100%;
@@ -28,10 +28,8 @@
   color: #4d2c57;
 }
 
-.aboutWorkingEthosWrapper {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(240, 238, 227);
+#aboutWorkingEthosImage {
+  aspect-ratio: auto 948 / 816;
 }
 
 #aboutWorkingEthosTitle {
@@ -67,7 +65,6 @@
 #aboutTitleMaterials {
   display: inline-block;
   text-align: left;
-  /* padding: 15px; */
   padding-top: 145px;
   font-size: 36pt;
   font-weight: 500;
