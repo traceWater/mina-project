@@ -1,4 +1,4 @@
-#aboutSustainabilityTitle {
+#sustainabilitySustainabilityTitle {
   display: inline-block;
   font-size: 70pt;
   color: white;
@@ -7,20 +7,20 @@
   position: absolute;
 }
 
-#aboutHeroLeafImage {
+#sustainabilityHeroLeafImage {
   display: inline-block;
   height: 400px;
   margin-top: 32px;
   z-index: -1;
   width: 100%;
 }
-.aboutGridContainer {
+.sustainabilityGridContainer {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100%;
   background-color: #f1f3f1;
 }
-#aboutTaglineWeCare {
+#sustainabilityTaglineWeCare {
   width: 100%;
   height: 188.78px;
   margin-top: 100px;
@@ -28,11 +28,7 @@
   color: #4d2c57;
 }
 
-/* #aboutWorkingEthosImage {
-  aspect-ratio: auto 948 / 816;
-} */
-
-#aboutWorkingEthosTitle {
+#sustainabilityWorkingEthosTitle {
   display: inline-block;
   text-align: left;
   padding-top: 160px;
@@ -42,7 +38,7 @@
   color: #4d2c57;
 }
 
-#aboutWorkingEthosText {
+#sustainabilityWorkingEthosText {
   display: inline-block;
   text-align: left;
   padding-top: 38px;
@@ -52,17 +48,17 @@
   line-height: 24pt;
 }
 
-#aboutImageOrange {
+#sustainabilityImageOrange {
   display: inline-block;
   height: 550px;
 }
-.aboutMaterialsWrapper {
+.sustainabilityMaterialsWrapper {
   display: inline-block;
   height: 550px;
   background-color: rgb(223, 148, 77);
 }
 
-#aboutTitleMaterials {
+#sustainabilityTitleMaterials {
   display: inline-block;
   text-align: left;
   padding-top: 145px;
@@ -72,7 +68,7 @@
   color: white;
 }
 
-#aboutTextMaterials {
+#sustainabilityTextMaterials {
   display: inline-block;
   background-color: rgb(223, 148, 77);
   text-align: left;
