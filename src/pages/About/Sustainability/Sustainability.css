@@ -4,6 +4,7 @@
   color: white;
   left: 30%;
   margin-top: 160px;
+  margin-left: 30%;
   position: absolute;
 }
 
@@ -18,6 +19,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100%;
+  background-color: #f1f3f1;
 }
 #aboutTaglineWeCare {
   width: 100%;
@@ -27,10 +29,8 @@
   color: #4d2c57;
 }
 
-.aboutWorkingEthosWrapper {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(240, 238, 227);
+#aboutWorkingEthosImage {
+  aspect-ratio: auto 948 / 816;
 }
 
 #aboutWorkingEthosTitle {
