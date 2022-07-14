@@ -3,7 +3,6 @@ import { Shop } from "./ShopList";
 
 import "./Shop.css";
 
-
 export default function ShopDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -17,11 +16,10 @@ export default function ShopDetails() {
   const listItem = Shop.find((item) => {
     return item.id === id;
   });
-  
+
   return (
     <div className="">
       <div className="shop">
-
         {/* <h1 className="detail-heroShop">
         <img
           id="heroShop"
@@ -31,7 +29,7 @@ export default function ShopDetails() {
         </h1> */}
 
         <div className="detail-image">
-        <img src={listItem?.image} alt={listItem?.title} />
+          <img src={listItem?.image} alt={listItem?.title} />
         </div>
 
         <h1>
@@ -43,9 +41,9 @@ export default function ShopDetails() {
           <div className="detail-material">{listItem?.material}</div>
           <div className="detail-color">{listItem?.color}</div>
           <div className="detail-measurements">{listItem?.measurements}</div>
+          <button onClick={handleOnClick}>Back to List</button>
         </h1>
-        <h1>
-        </h1>
+        <h1></h1>
       </div>
     </div>
   );
