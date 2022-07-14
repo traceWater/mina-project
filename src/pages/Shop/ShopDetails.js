@@ -20,13 +20,6 @@ export default function ShopDetails() {
   return (
     <div className="">
       <div className="shop">
-        {/* <h1 className="detail-heroShop">
-        <img
-          id="heroShop"
-          src={process.env.PUBLIC_URL + "/ShopImages/TopShopImage.png"}
-          alt="HeroImage"
-          />
-        </h1> */}
 
         <div className="detail-image">
           <img src={listItem?.image} alt={listItem?.title} />
@@ -43,7 +36,7 @@ export default function ShopDetails() {
           <div className="detail-measurements">{listItem?.measurements}</div>
           <button onClick={handleOnClick}>Back to List</button>
         </h1>
-        <h1></h1>
+
       </div>
     </div>
   );
