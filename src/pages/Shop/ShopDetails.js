@@ -1,8 +1,16 @@
-import { useParams } from "react-router-dom";
+import { useParams, useOutletContext, useNavigate } from "react-router-dom";
 import { Shop } from "./ShopList";
 
 export default function ShopDetails() {
   const { id } = useParams();
+  const navigate = useNavigate();
+  const [showDetails, setShowDetails] = useOutletContext();
+
+  const handleOnClick = () => {
+    setShowDetails(false);
+    navigate(-1);
+  };
+
   const listItem = Shop.find((item) => {
     return item.id === id;
   });
@@ -21,6 +29,7 @@ export default function ShopDetails() {
             {listItem?.image}
             {listItem?.price}
           </p>
+          <button onClick={handleOnClick}>Back to List</button>
         </div>
       </div>
     </div>
